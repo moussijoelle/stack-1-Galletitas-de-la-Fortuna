@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galletitas de la Suerte</title>
+  <script type="module" crossorigin src="./assets/index-DTCgUInt.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-pTojSdVr.css">
+</head>
+
+<body class="container w-4/5 mx-auto">
+  <details>
+    <summary>Galletitas de la Suerte</summary>
+    <p>Trabajaremos con un array y los métodos <code>floor</code> y <code>random</code> del objeto <code>Math</code>.
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random">MDN</a>
+    </p>
+    <p>Para mostrar el mensaje en pantalla:</p>
+    <ol>
+      <li>Creamos un <a href="https://www.w3schools.com/js/js_array_methods.asp" target="_blank"
+          rel="noopener noreferrer">array</a> de mensajes.
+        (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank"
+          rel="noopener noreferrer">+</a>).</li>
+      <li>Leemos cuántos mensajes hay y lo guardamos en la variable <code>num_mensajes</code></li>
+      <li>Generamos un número random entre 0 y el número de mensajes guardados en el paso 2</li>
+      <li>Mostramos el mensaje que está en la posición del número generado clicando el botón <kbd>boton-mensaje</kbd></li>
+      <li>Cambiamos la <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank"
+          rel="noopener noreferrer">imagen</a>
+        de la galletita cerrada por una galletita abierta. Recuerda:</li>
+      <li>Deshabilitamos el <a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank"
+          rel="noopener noreferrer">botón</a> <code>boton-mensaje</code></li>
+    </ol>
+    <p><b>Abre la consola</b> (<kbd>botón derecho del ratón - Inspeccionar</kbd>) para ver los mensajes</p>
+  </details>
+
+  <p>
+    <button type="button" id="boton-mensaje"><kbd>click</kbd> para ver el mensaje</button>
+    <button type="button" id="boton-recargar">volver a jugar</button>
+  </p>
+  <hr>
+  <p><img id="galleta" alt="Galleta de la Suerte"></p>
+  <p id="mensaje"></p>
+
+</body>
+
+</html>
