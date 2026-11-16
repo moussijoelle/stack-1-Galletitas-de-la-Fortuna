@@ -1,29 +1,27 @@
 # Galletitas de la Fortuna
 
-Ejercicio Stack 1: al pulsar el botón sale un mensaje al azar y la galleta se “abre”.
+Al pulsar el botón sale un mensaje al azar y la galleta “se abre”. Ejercicio del Stack 1 con arrays y `Math.random`.
 
 ## Qué hace
 
-- Array de mensajes de fortuna
-- Elige uno con `Math.random` / `Math.floor`
-- Cambia la imagen de la galleta y deshabilita el botón
-- Botón para volver a jugar
-- Incluye el enunciado en un `<details>`
+- Elige un mensaje de un array
+- Cambia la imagen de la galleta
+- Desactiva el botón hasta que le das a volver a jugar
+- El enunciado va en un `<details>` de la propia página
 
 ## Cómo probarlo
 
-Es un build de Vite ya desplegado: abre `index.html` o la demo (no hace falta `npm run` para verla).
+Es el build de Vite ya publicado: abre `index.html` o la demo (no hace falta `npm` para verla).
 
 Demo: https://moussijoelle.github.io/stack-1-Galletitas-de-la-Fortuna/
 
 ## Cómo lo construí
 
-- Vite + JavaScript + CSS (assets en `assets/`)
-- Interfaz en `index.html` (`boton-mensaje`, `galleta`, `mensaje`)
+Proyecto Vite; el JS/CSS compilados están en `assets/`. La interfaz (botones, imagen, mensaje) está en `index.html`.
 
 ## Cómo verificarlo
 
-Sin tests. Pulso el botón, miro mensaje e imagen, y uso “volver a jugar”.
+Saco un mensaje, miro la imagen, recargo la partida con “volver a jugar” y repito.
 
 ---
 
